@@ -1,9 +1,12 @@
 site:
   title: Serverless Workflow Docs Local Preview
   start_page: serverlessworkflow::index.adoc
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
 content:
   sources:
-    - url: /home/abhishekkumar/Workspace/serverless-workflow/kogito-docs
+    - url: https://github.com/akumar074/test-action.git
       branches: HEAD
       start_path: serverlessworkflow
 ui:
@@ -11,6 +14,9 @@ ui:
     url: ./antora/ui-bundle.zip
     snapshot: true
   supplemental_files: ./antora/supplemental-ui
-antora:
+asciidoc: 
+  attributes: 
+    linkattrs: ''
+    toc: ~
   extensions:
-  - require: '@antora/lunr-extension'
+  - ./antora/supplemental-ui/js/vendor/lunr-2.3.9.min.js
