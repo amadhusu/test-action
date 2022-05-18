@@ -18,5 +18,3 @@ asciidoc:
   attributes: 
     linkattrs: ''
     toc: ~
-  extensions:
-  - ./antora/supplemental-ui/js/vendor/lunr-2.3.9.min.js
