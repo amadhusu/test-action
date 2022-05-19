@@ -3,10 +3,10 @@ site:
   start_page: serverlessworkflow::index.adoc
 antora:
   extensions:
-  - require: '@antora/lunr-extension'
+    - require: '@antora/lunr-extension'
 content:
   sources:
-    - url: https://github.com/akumar074/test-action.git
+    - url: ..
       branches: HEAD
       start_path: serverlessworkflow
 ui:
@@ -14,7 +14,7 @@ ui:
     url: ./antora/ui-bundle.zip
     snapshot: true
   supplemental_files: ./antora/supplemental-ui
-asciidoc: 
-  attributes: 
+asciidoc:
+  attributes:
     linkattrs: ''
     toc: ~
