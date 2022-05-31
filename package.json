@@ -1,0 +1,23 @@
+{
+  "name": "test-action",
+  "version": "1.0.0",
+  "description": "Kogito Serverless Workflow Guides",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akumar074/test-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akumar074/test-action/issues"
+  },
+  "homepage": "https://github.com/akumar074/test-action#readme",
+  "dependencies": {
+    "@antora/cli": "^3.0.1",
+    "@antora/lunr-extension": "^1.0.0-alpha.6",
+    "@antora/site-generator": "^3.0.1"
+  }
+}
