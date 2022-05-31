@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 1023px) {
     .github-icon {
-        background: url('../img/gitHubLogo.png') no-repeat;
+        background: url('antora/supplemental-ui/img/gitHubLogo.png') no-repeat;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .github-icon {
-        background: url('../img/gitHubLogoLight.png') no-repeat;
+        background: url('antora/supplemental-ui/img/gitHubLogoLight.png') no-repeat;
     }
 }
