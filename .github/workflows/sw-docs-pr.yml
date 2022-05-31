@@ -3,7 +3,7 @@ name: Serverless Workflow Guides
 on:
   pull_request:
     types: [ opened, synchronize, reopened, ready_for_review ]
-    branches: [ 'main' ]
+    branches: [main]
       paths-ignore:
         - '.gitignore'
         - 'LICENSE'
