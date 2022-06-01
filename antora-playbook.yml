@@ -1,6 +1,6 @@
 site:
   title: Serverless Workflow Guides
-  start_page: index.adoc
+  start_page: serverlessworkflow::index.adoc
 antora:
   extensions:
   - require: '@antora/lunr-extension'
