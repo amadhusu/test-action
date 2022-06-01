@@ -23,11 +23,12 @@ jobs:
       - run: npm -v
       - run: npm install
       - run: npx antora antora-playbook.yml --stacktrace
+      - run: tree .
       - name: Publish
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: test-action # e.g. 'my-project'
-          directory: build/site # e.g. 'dist'
+          directory: build/site/ # e.g. 'dist'
           gitHubToken: ${{ secrets.GH_TOKEN }}
